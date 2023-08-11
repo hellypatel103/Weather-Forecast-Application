@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Wizard</title>
+    <script src="https://kit.fontawesome.com/cd2a33f722.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div class="back">
+        <div class="container">
+            <div class="header">
+                <h1>Weather Wizard</h1>
+                <div class="search-box">
+                    <input type="text" class="locinput" placeholder="Search for city..." />
+                    <button id="searchbtn">
+                        <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="location-not-found">
+                <h3>
+                    Sorry, Try searching for valid location!!
+                    <i class="fa-solid fa-face-sad-tear"></i>
+                </h3>
+                <img src="img\error.jpg" alt="404 error" />
+            </div>
+
+            <div class="weather-body">
+                <img src="img/clear-sky.png" alt="not found" class="weather-img" />
+                <div class="weather-box">
+                    <p class="temp">0<sup>°C</sup></p>
+                    <p class="description">temparature description</p>
+                </div>
+
+                <div class="weather-details">
+                    <div class="humidity">
+                        <i class="fa-solid fa-droplet fa-lg"></i>
+                        <div class="text">
+                            <p class="humidity-pr">45%</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+
+                    <div class="wind">
+                        <i class="fa-solid fa-wind fa-lg"></i>
+                        <div class="text">
+                            <p class="wind-speed">12km/hr</p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="weather-details">
+                    <div class="visibility">
+                        <i class="fa-solid fa-eye-slash"></i>
+                        <div class="text">
+                            <p class="visibility-data">1000</p>
+                            <p>Visibility</p>
+                        </div>
+                    </div>
+
+                    <div class="pressure">
+                        <i class="fa-solid fa-fan"></i>
+                        <div class="text">
+                            <p class="pressure-data">100</p>
+                            <p>Pressure</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="animate">
+
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
