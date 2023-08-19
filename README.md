@@ -1,5 +1,5 @@
 # Weather-Forecast-Application
-Weather App fetches data from weather API and display various information related to entered location. Use of amazing animations for background according to weather change or sunset/Sunrise timing.
+Weather App fetches data from openweathermap API and display various information related to entered location. Use of amazing animations for background according to weather change or sunset/Sunrise timing.
 
 # Overview
 
